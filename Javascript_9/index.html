@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript_9</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+<input type="text" class="w">
+<input type="text" class="h">
+<input type="text" class="b">
+<button onclick="myFunction()">Send Message</button>
+
+<div id="box"></div>
+
+<script>
+function myFunction() {
+    let width = document.querySelector('.w').value;
+    let height = document.querySelector('.h').value;
+    let border = document.querySelector('.b').value;
+    let box = document.getElementById('box');
+
+    box.style.width = width;
+    box.style.height = height;
+    box.style.borderRadius = border;
+    
+
+}
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
